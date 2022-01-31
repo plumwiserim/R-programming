@@ -6,7 +6,7 @@ install.packages("memoise")
 install.packages("multilinguer") # error
 
 install.packages("remotes")
-remotes::install_gitlab("mrchypark/multilinguer")
+remotes::install_gitlab("mrchypark/multilinguer", force = TRUE)
 
 # KoNLP 의존성 패키지 설치하기 
 install.packages(c('stringr', 'hash', 'tau', 'Sejong', 'RSQLite', 'devtools'), type = "binary")
